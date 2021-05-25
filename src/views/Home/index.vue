@@ -1,7 +1,6 @@
 <template>
   <Header/>
-  <div>hello world</div>
-  <router-view></router-view>
+  <router-view class="pt-16 min-h-screen"></router-view>
 </template>
 
 <script lang="ts">
