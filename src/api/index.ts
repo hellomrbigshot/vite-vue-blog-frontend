@@ -1,5 +1,5 @@
-import * as page from './page'
+import * as article from './article'
 
 export default {
-  ...page
+  ...article
 }
