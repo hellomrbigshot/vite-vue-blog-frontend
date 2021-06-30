@@ -7,12 +7,21 @@ module.exports = {
         '16': '4rem'
       },
       width: {
-        '80': '20rem'
+        '50': '12.5rem',
+        '80': '20rem',
+        '100': '25rem'
+      },
+      height: {
+        '125': '31.25rem'
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      width: ['focus'],
+      fontWeight: ['hover'],
+      borderWidth: ['hover']
+    },
   },
   plugins: [],
 }
